@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #414bd1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.student {
+    background-color: #414bd1;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.student h4 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.student p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.option-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.option-btn {
+    padding: 15px 30px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.option-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.option-btn:first-child {
+    background-color: #28a745;
+}
+
+.option-btn:first-child:hover {
+    background-color: #218838;
+}
+
+.option-btn:last-child {
+    background-color: #dc3545;
+}
+
+.option-btn:last-child:hover {
+    background-color: #c82333;
+}
